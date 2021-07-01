@@ -8,7 +8,7 @@ function Thumbnail({result}) {
 
     return (
         <div  className="group cursor-pointer p-2 transition duration-100 ease-in transform sm:hover:scale-105 hover:z-50 " >
-            {/* <Image 
+            <Image 
                 layout='responsive'
                 src={
                     `${BASE_URL}${result.backdrop_path || result.poster_path }` ||   
@@ -16,7 +16,7 @@ function Thumbnail({result}) {
                 }
                 width={1920}
                 height={1080}
-            /> */}
+            />
 
             <div className="p-2 " >
                 <p className="truncate max-w-md " > {result.overview} </p>
