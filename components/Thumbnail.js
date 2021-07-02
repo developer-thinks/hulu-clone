@@ -3,7 +3,7 @@ import {ThumbUpIcon} from "@heroicons/react/outline";
  
 function Thumbnail({result}) {
 
-     const BASE_URL = "https://www.themoviedb.org/tv/";
+     const BASE_URL = "https://image.tmdb.org/t/p/w500/";
 
 
     return (
